@@ -24,7 +24,7 @@ Para compilar y ejecutar este programa, necesitas:
 Para compilar el programa, utiliza el siguiente comando en la terminal:
 
 ```bash
-cd Concurrencia
+cd multi_matri
 
 gcc mv.003.c -o mm_v03
 ```
