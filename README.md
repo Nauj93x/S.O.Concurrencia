@@ -26,7 +26,10 @@ Para compilar el programa, utiliza el siguiente comando en la terminal:
 ```bash
 cd multi_matri
 
-gcc mv.003.c -o mm_v03
+gcc mv.005.c -o mm_v05
+
+-- ejemplo./mm_v05 #Hilos #Procesos
+./mm_v05 10 5
 ```
 
 ## Descripción del Código
