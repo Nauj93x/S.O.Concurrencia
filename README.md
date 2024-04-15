@@ -28,7 +28,7 @@ cd multi_matri
 
 gcc mv.005.c -o mm_v05
 
--- ejemplo./mm_v05 #Hilos #Procesos
+# ejemplo./mm_v05 #Hilos #Procesos
 ./mm_v05 10 5
 ```
 
