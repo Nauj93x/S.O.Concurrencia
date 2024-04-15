@@ -46,3 +46,5 @@ El código implementa la multiplicación de matrices cuadradas utilizando parale
 - Multiplicación de Matrices: La función multiplicacionMatriz realiza la multiplicación de matrices cuadradas utilizando los punteros a las matrices de entrada y salida contenidos en la estructura datosMM. Esta función se ejecuta de manera paralela utilizando hilos de la biblioteca Pthreads, lo que mejora el rendimiento del programa al distribuir la carga de trabajo entre múltiples hilos de ejecución.
 
 - Creación de Hilos: En la función principal del programa, se crea un número específico de hilos para realizar la multiplicación de matrices de manera paralela. Cada hilo ejecuta la función multiplicacionMatriz con una parte de los datos de entrada, distribuyendo así la carga de trabajo entre los hilos.
+
+- Identificación y Distribución de Hilos: Se integra un identificador único para cada hilo (idH), lo que permite una división más precisa de las tareas entre los hilos y optimiza el paralelismo en la multiplicación de matrices.
